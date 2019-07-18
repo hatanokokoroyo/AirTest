@@ -65,7 +65,8 @@ def read_loop():
             print(str(int(period)) + '/35s')
             swipe([500, 1565], [500, 1065])
             time.sleep(1.5)
-            swipe([500, 1065], [500, 1565])
+            swipe([500, 1565], [500, 1065])
+#             swipe([500, 1065], [500, 1565])
             period = time.time() - start
         operator.touch_back()
         time.sleep(2)
