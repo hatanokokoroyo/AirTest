@@ -48,9 +48,16 @@ def fighting():
         touch([2140, 990])
         sleep(0.5)
         second += 0.5
-        if second % 10 != 0:
+        if second % 5 != 0:
             continue
-        if exists(Template(r"tpl1563630394833.png", record_pos=(0.0, 0.183), resolution=(2340, 1080))):
+        if exists(Template(r"tpl1563633133104.png", record_pos=(-0.134, -0.019), resolution=(2340, 1080))):
+            touch(Template(r"tpl1563633133104.png", record_pos=(-0.134, -0.019), resolution=(2340, 1080)))
+        if exists(Template(r"tpl1563635497320.png", record_pos=(-0.124, -0.018), resolution=(2340, 1080))):
+            touch(Template(r"tpl1563635497320.png", record_pos=(-0.124, -0.018), resolution=(2340, 1080)))
+        if second % 10 == 0 and exists(Template(r"tpl1563640258602.png", record_pos=(0.078, 0.099), resolution=(2340, 1080))):
+            touch(Template(r"tpl1563640258602.png", record_pos=(0.078, 0.099), resolution=(2340, 1080)))
+
+        if second % 10 == 0 and exists(Template(r"tpl1563642166072.png", record_pos=(-0.001, 0.182), resolution=(2340, 1080))):
             break
 
 def judge_current_chapter():
