@@ -7,8 +7,8 @@ import Processor as processor
 auto_setup(__file__)
 
 def main():
-    level = '2-3'
-    times = 10
+    level = '3-4'
+    times = 20
     # 点击出征
     processor.expedition()
     # 进入关卡
@@ -20,7 +20,11 @@ def main():
         processor.fighting()
         # 
         processor.enter_level(level)
+
+def main2():
+    processor.fighting()
     
 if __name__ == 'airtest.cli.runner':
     print("开始执行脚本")
     main()
+#     main2()

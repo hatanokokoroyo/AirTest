@@ -35,7 +35,7 @@ def enter_level(level):
     operator.touch_button_expedition()
     
 def switch_to_auto():
-    sleep(4)
+    sleep(8)
     if exists(Template(r"tpl1563630274251.png", record_pos=(0.43, -0.203), resolution=(2340, 1080))):
         touch(Template(r"tpl1563630274251.png", record_pos=(0.43, -0.203), resolution=(2340, 1080)))
 
